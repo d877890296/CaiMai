@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 标题栏按钮背景颜色 -->
+    <drawable name="button_backward_pressed">#7f119bc3</drawable>
+    <drawable name="button_backward_normal">#0000</drawable>
+    <color name="color_btn_nor">#058ce8</color>
+    <color name="color_btn_pre">#2b6891</color>
+
+    <color name="google_red">#d62d20</color>
+    <color name="google_blue">#0057e7</color>
+    <color name="google_green">#008744</color>
+    <color name="google_yellow">#ffa700</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="scan_bg">#7f000000</color>
+
+    <color name="color_item_press">#2b6891</color>
+    <color name="color_item_normal">#058ce8</color>
+
+    <color name="day_line_color">#dddddd</color>
+    <color name="color_grey">#f6f6f9</color>
+    <color name="color_theme">#058ce8</color>
+    <color name="TRANSPRENT">#00000000</color>
+
+    <!-- line的颜色 -->
+    <color name="gray_line">#E5E5E5</color>
+
+    <!-- hint 的显示的文本 -->
+    <color name="hint_text">#A0A0A1</color>
+
+    <!-- 成功显示的线条颜色 -->
+    <color name="success_line">#33CB41</color>
+
+    <color name="sc_transparent_background">#00111111</color>
+
+    <color name="color_text">#333333</color>
+    <color name="color_text_left">#777777</color>
+    <color name="text_color">#303030</color>
+    <color name="time_text_color">#909090</color>
+    <color name="color_money">#ed8100</color>
+    <color name="cashier_bg">#eeeeee</color>
+    <color name="number_bg">#a9a9a9</color>
+    <color name="btn_press_color_gray">#e0e0e0</color>
+    <color name="black_overlay">#60000000</color>
+
+    <color name="dialog_tips_bg">#eeeeee</color>
+    <color name="dialog_tips_btn">#d6d6d6</color>
+    <color name="dialog_tips_line">#c6c6c6</color>
+    <color name="dialog_tips_title_txt">#434343</color>
+    <color name="dialog_tips_content_txt">#898989</color>
+    <color name="dialog_tips_negative_btn_txt">#058ce8</color>
+    <color name="dialog_tips_positive_btn_txt">#058ce8</color>
+    <color name="grey">#cccccc</color>
+
+    <color name="yellow">#ffaa00</color>
+    <color name="red1">#f3594d</color>
+    <color name="red">#d51628</color>
+    <color name="whites">#FFFFFFFF</color>
+    <color name="whilte">#FFFFFF</color>
+    <color name="bg_color">#f5f5f5</color>
+    <color name="black_text">#000000</color>
+    <color name="green">#37cb35</color>
+    <color name="green_bg">#23c000</color>
+    <color name="orange">#ffee7600</color>
+    <color name="blue">#4b89dc</color>
+    <color name="black">#3f3f3f</color>
+    <color name="black_bg">#ff000000</color>
+    <color name="gray">#ff808a87</color>
+    <color name="page_bg">#fff0f0f0</color>
+    <color name="bg_orange">#ffffa100</color>
+    <color name="text_red">#ffcf3b3d</color>
+    <color name="text_black">#ff5b5b5b</color>
+    <color name="mainBg">#ff393a4c</color>
+    <color name="loginBtnBg">#ffffffff</color>
+    <color name="under_line">#D1D0CF</color>
+    <color name="page_backgroud">#4b89dc</color>
+    <color name="all_page_bg">#FFFFFF</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="text_gray">#F0F0F0</color>
+    <color name="deep_bule">#263C65</color>
+    <color name="gv">#dfdfdf</color>
+    <color name="button_color">#005bac</color>
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#ffd3dde6</color>
+    <color name="jfunder_line">#F2F2F2</color>
+    <color name="titlebar">#FFFFFFFF</color>
+    <color name="yellows">#ffea28</color>
+
+    <color name="hui">#D9D9D9</color>
+    <color name="hei">#000000</color>
+
+    <color name="c99333333">#99333333</color>
+    <color name="c80333333">#80333333</color>
+    <color name="c333333">#333333</color>
+    <color name="c999999">#999999</color>
+    <color name="c05BBE8">#05BBE8</color>
+    <color name="cB2C5F2">#B2C5F2</color>
+    <color name="c222222">#222222</color>
+    <color name="transparent66">#66000000</color>
+    <color name="cFF3A32">#FF3A32</color>
+    <color name="weekcolor">#29A1F7</color>
+    <color name="black_40bg">#40000000</color>
+    <color name="black_50bg">#50000000</color>
+    <color name="line_bg">#ebebeb</color>
+    <color name="c888888">#888888</color>
+    <color name="c939393">#939393</color>
+    <color name="cf84701">#f84701</color>
+    <color name="gold">#000000</color>
+    <color name="cff0000">#ff0000</color>
+    <color name="c99999999">#99999999</color>
+    <color name="f4f4f4">#f4f4f4</color>
+
+
+</resources>

@@ -1,0 +1,79 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        myconfig {
+            keyAlias 'caimai'
+            keyPassword 'caimai'
+            storeFile file('release.jks')
+            storePassword 'caimai'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.xfkc.caimai"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.myconfig
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/ASL2.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':tdlibrary')
+    //网络请求
+    //解析
+    //superTextView    原型图控件
+    //城市选择器  三级联动
+    //图片选择器
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.apkfuns.xprogressdialog:xprogressdialog:1.2.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.lzy.net:okgo:2.1.4'
+    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.13'
+    compile 'org.codehaus.jackson:jackson-core-asl:1.9.13'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.github.lygttpod:SuperTextView:2.1.6'
+    compile 'liji.library.dev:citypickerview:0.7.0'
+    compile 'com.foamtrace:photopicker:1.0'
+    compile 'com.just.agentweb:agentweb:1.2.6'
+    compile 'com.android.support:support-v4:25.3.1'
+    testCompile 'junit:junit:4.12'
+
+    //支付
+    compile files('libs/alipaySdk-20180403.jar')
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+}

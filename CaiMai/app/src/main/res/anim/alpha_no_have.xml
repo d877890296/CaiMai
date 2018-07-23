@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自己添加头标识 -->
+<!-- 公共属性android:duration动画持续时间 -->
+
+<!-- android:fromAlpha动画起始的物体透明度 -->
+<!-- android:toAlpha动画结束的物体透明度 -->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="500"
+    android:fromAlpha="1.0"
+    android:toAlpha="0.0" >
+
+</alpha>

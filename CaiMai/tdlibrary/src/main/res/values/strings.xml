@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TD Library</string>
+    <string name="loading">请求中...</string>
+
+    <string name="td_app_download_dialog_title">发现新版本:</string>
+    <string name="td_app_download_notification_start">开始下载</string>
+    <string name="td_app_download_notification_success">下载完成。</string>
+    <string name="td_app_download_success">新版本下载成功，开始安装。</string>
+    <string name="td_app_download_failure">新版本下载失败，请稍后再试。</string>
+    <string name="td_app_download_downloading">已经在下载中</string>
+    <string name="td_app_download_start">开始下载</string>
+    <string name="td_app_download_install">准备安装</string>
+    <string name="td_app_download_error_sdcard">未找到SD卡，无法下载。</string>
+    <string name="td_app_download_error_url">下载地址错误，无法下载。</string>
+
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">An unexpected error occurred.\nSorry for the inconvenience.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Unknown exception</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Restart app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Close app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Error details</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Close</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copy to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copied to clipboard</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Error information</string>
+
+</resources>
